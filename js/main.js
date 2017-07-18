@@ -2,6 +2,7 @@
 var calcul = document.getElementsByClassName("calculet")
 var tabcalcul = []
 var total = ""
+var totalfinal = ""
 var resultat = document.getElementById("resultatcalcul")
 resultat.innerHTML = 0
 
@@ -20,6 +21,7 @@ else{
   }
   total = eval(total)
   resultat.innerHTML = total
+  total = total + ""
 }
 
 
